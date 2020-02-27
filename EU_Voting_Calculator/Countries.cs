@@ -7,13 +7,13 @@ namespace Voting_Calculator_Version_1
     public class Countries
     {
         
-        public enum VoteOptions //enum is a enumeration for specific values
+        public enum vote_options //enum is a enumeration for specific values
         {
             Yes, 
             No,
             Abstain
         }
-        public int VoteOption { get; set; }
+        public int vote_option { get; set; }
         public string Name { get; set; } 
         private double _population; 
         public double Population 

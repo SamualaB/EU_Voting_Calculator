@@ -6,10 +6,10 @@ namespace Voting_Calculator_Version_1
 {
     class EU_Vote_Calculator 
     { 
-        public static (double,decimal) yesVotes(List<Countries> countries) //ualified Majority voting rule 
+        public static (double,decimal) yes_votes(List<Countries> countries) //ualified Majority voting rule 
         { 
             var x = from country in countries //Each individual country
-                    where country.VoteOption == (int)Countries.VoteOptions.Yes //Checks for the yes votes 
+                    where country.vote_option == (int)Countries.vote_options.Yes //Checks for the yes votes 
                     select country; 
 
             double population = default; //Sets population to default value
