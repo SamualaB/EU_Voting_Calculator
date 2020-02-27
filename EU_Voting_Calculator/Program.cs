@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Voting_Calculator_Version_1 
+namespace EU_Voting_Calculator
 {
     class Program 
     {

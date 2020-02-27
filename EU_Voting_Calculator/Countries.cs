@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Voting_Calculator_Version_1
+namespace EU_Voting_Calculator
 {
     public class Countries
     {
